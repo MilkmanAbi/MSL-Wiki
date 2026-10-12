@@ -29,6 +29,7 @@
  "experiments/shared-clipboard.html",
  "experiments/sign-in-pages.html",
  "files/files-deleting.html",
+ "files/files-git.html",
  "files/files-moving.html",
  "files/files-open-in-msl.html",
  "files/files-sidebar.html",
