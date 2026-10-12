@@ -1,0 +1,25 @@
+<!--
+  Article template. Copy this file into a chapter folder (for example
+  _extras/placeholder/my-article.html), add its file name to "articles" in
+  that folder's chapter.json, and run: node _build/build.mjs
+
+  The file name becomes the URL (placeholder/my-article.html) and must not
+  clash with any other article's file name anywhere on the site.
+
+  Only the <h1>, the summary and the body are used; the page around them is
+  built for you. Comments like this one are dropped.
+-->
+<h1>Article title</h1>
+<p class="summary">One sentence that says what this article is for.</p>
+
+<p>Body text. Link to other articles by file name, like the
+<a href="tour.html">two-minute tour</a> or <a href="ssh.html#automatic">a section of one</a>.</p>
+
+<h3 id="a-section">A section<a class="anchor" href="#a-section" aria-label="Link to this section">#</a></h3>
+<p>Headings with an id appear in "On this page" and in search.</p>
+
+<aside class="callout tip"><span class="callout-kind">tip</span><p class="callout-title">A callout</p><p>The kinds are note, tip, important, warning, danger and aside.</p></aside>
+
+<figure class="code"><figcaption>shell</figcaption><pre><code>msl list</code></pre></figure>
+
+<div class="table-wrap"><table><thead><tr><th>Column</th><th>Means</th></tr></thead><tbody><tr><td>A row</td><td>Its value</td></tr></tbody></table></div>
